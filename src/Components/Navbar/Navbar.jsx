@@ -5,7 +5,7 @@ const Navbar = () => {
         <a>Home</a>
       </li>
       <li>
-        <a>About Me</a>
+        <a >About Me</a>
       </li>
       <li>
         <a>My Skills</a>
@@ -25,7 +25,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="drawer">
+    <div className="drawer fixed z-10 bg-opacity-50 bg-[#151515]">
       <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
       <div className="drawer-content flex flex-col">
         {/* Navbar */}

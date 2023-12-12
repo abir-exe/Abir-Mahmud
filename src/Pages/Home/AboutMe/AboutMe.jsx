@@ -17,7 +17,7 @@ const AboutMe = () => {
             <h3 className="text-4xl font-bold">I am Abir Mahmud</h3>
             <h1 className="text-2xl">
        
-        <span style={{ color: 'red', fontWeight: 'bold' }}>
+        <span style={{ color: 'tomato', fontWeight: 'bold' }}>
           {/* Style will be inherited from the parent element */}
           <Typewriter
             words={['A Front End Web Developer...', 'Comfortable With Backend...', 'A Quick Learner...', 'Who Loves To Learn And Explore..!']}
